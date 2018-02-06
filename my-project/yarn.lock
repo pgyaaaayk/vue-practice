@@ -37,6 +37,16 @@
     global "^4.3.2"
     prop-types "^15.5.10"
 
+"@storybook/addon-notes@^3.3.12":
+  version "3.3.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-notes/-/addon-notes-3.3.12.tgz#63f85c3b9608d4afe39d77d71da52b3890aa48df"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+    util-deprecate "^1.0.2"
+  optionalDependencies:
+    "@types/react" "^16.0.20"
+
 "@storybook/addon-viewport@^3.3.12":
   version "3.3.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-3.3.12.tgz#cf1bc2d168249bc678e1a4bf6f1bb8c10e5c94ac"
@@ -194,7 +204,7 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/inline-style-prefixer/-/inline-style-prefixer-3.0.1.tgz#8541e636b029124b747952e9a28848286d2b5bf6"
 
-"@types/react@^16.0.18":
+"@types/react@^16.0.18", "@types/react@^16.0.20":
   version "16.0.36"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.36.tgz#ceb5639013bdb92a94147883052e69bb2c22c69b"
 

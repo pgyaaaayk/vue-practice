@@ -1,0 +1,5 @@
+import { storiesOf } from '@storybook/vue'
+import { action } from '@storybook/addon-actions'
+import VueInfoAddon from 'storybook-addon-vue-info'
+import { withKnobs, text, color } from '@storybook/addon-knobs'
+import { withNotes } from '@storybook/addon-notes'
